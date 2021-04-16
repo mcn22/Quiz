@@ -94,7 +94,7 @@ namespace EditorialMvc.Areas.Identity.Pages.Account.Manage
 
         public IActionResult OnPostRedirect1()
         {
-            return Redirect("./ForgotPassword");
+            return Redirect("./Manage/ChangePassword");
         }
     }
 }
