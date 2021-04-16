@@ -58,18 +58,18 @@ namespace EditorialMvc
 
             services.AddAuthentication().AddFacebook(options =>
                 {
-                    options.AppId = "1575719865965523";
-                    options.AppSecret = "dbbb14762e78bf8834b79634b259f892";
+                    options.AppId = "919726062116740";
+                    options.AppSecret = "6710fbd018aec14da979b97646012f1a";
                 }
               );
 
 
-            services.AddAuthentication().AddGoogle(options =>
-              {
-                  //IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
-                  options.ClientId = "906120752235-7b8oivmq4fsrhe1469qsg44jkn027jg0.apps.googleusercontent.com";
-                  options.ClientSecret = "ZvEa2vKwK60U0WFF4O6DK5t4";
-              });
+            //services.AddAuthentication().AddGoogle(options =>
+            //  {
+            //      //IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
+            //      options.ClientId = "906120752235-7b8oivmq4fsrhe1469qsg44jkn027jg0.apps.googleusercontent.com";
+            //      options.ClientSecret = "ZvEa2vKwK60U0WFF4O6DK5t4";
+            //  });
 
             services.Configure<SendGridOptions>(Configuration.GetSection(SendGridOptions.Section));
 
