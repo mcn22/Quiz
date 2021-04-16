@@ -91,5 +91,10 @@ namespace EditorialMvc.Areas.Identity.Pages.Account.Manage
             StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }
+
+        public IActionResult OnPostRedirect1()
+        {
+            return Redirect("./ForgotPassword");
+        }
     }
 }

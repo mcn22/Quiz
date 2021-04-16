@@ -22,9 +22,11 @@
             </div>
             <button id="update-profile-button" type="submit" class="btn btn-primary">Save</button>
         </form>
-        <div class="form-group">
-            <button id="update-profile-button" class="btn btn-secondary" asp-page="./ForgotPassword">Cambiar Contraseña</button>
-        </div>
+        <br />
+        <form method="post" asp-page="Index">
+            <button id="update-profile-button" type="submit" class="btn btn-secondary" asp-page-handler="Redirect1">Cambiar Contraseña</button>
+        </form>
+
     </div>
 </div>
 
