@@ -21,12 +21,17 @@ namespace EditorialMvc.DataAccess.Repositorio
 
         public void Actualizar(Pensamiento Pensamiento)
         {
-            //var c = _db.Pensamientos.FirstOrDefault(s => s.Id == Pensamiento.Id);
+            var c = _db.Pensamientos.FirstOrDefault(s => s.Id == Pensamiento.Id);
 
-            //if (c == null)
-            //    return;
+            if (c == null)
+                return;
 
-            //c.Nombre = Pensamiento.Nombre;
+            c.Titulo = Pensamiento.Titulo;
+            c.Contenido = Pensamiento.Contenido;
+            c.Fecha = Pensamiento.Fecha;
+            c.Imagen = Pensamiento.Imagen;
+            c.Autor = Pensamiento.Autor;
+
         }
     }
 }

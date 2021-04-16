@@ -10,6 +10,8 @@ namespace EditorialMvc.DataAccess.Repositorio.IRepositorio
 
         IUsuarioRepositorio Usuarios { get; }
 
+        IPensamientoRepositorio Pensamientos { get; }
+
         void Guardar();
     }
 }

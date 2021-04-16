@@ -28,6 +28,7 @@
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="dropdown-item" asp-area="Admin" asp-controller="Pensamiento" asp-action="Index">Pensamientos</a>
                         </li>
                         @if (User.IsInRole(SD.Roles.Administrador) || User.IsInRole(SD.Roles.Empleado))
                         {
