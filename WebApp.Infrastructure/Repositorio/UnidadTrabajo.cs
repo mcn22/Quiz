@@ -13,12 +13,15 @@ namespace EditorialMvc.DataAccess.Repositorio
             _db = db;
 
             Categorias = new CategoriaRepositorio(db);
+            Pensamientos = new PensamientoRepositorio(db);
             Usuarios = new UsuarioRepositorio(db);
         }
 
         readonly ApplicationDbContext _db;
 
         public ICategoriaRepositorio Categorias { get; private set; }
+
+        public IPensamientoRepositorio Pensamientos { get; private set; }
 
         public IUsuarioRepositorio Usuarios { get; private set; }
 

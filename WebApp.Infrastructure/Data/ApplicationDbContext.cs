@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using WebApp.Domain;
 
 namespace EditorialMvc.DataAccess.Data
 {
@@ -15,6 +16,8 @@ namespace EditorialMvc.DataAccess.Data
         }
 
         public DbSet<Categoria> Categorias { get; set; }
+        public DbSet<Pensamiento> Pensamientos { get; set; }
+
         public DbSet<Usuario> Usuarios { get; set; }
     }
 }

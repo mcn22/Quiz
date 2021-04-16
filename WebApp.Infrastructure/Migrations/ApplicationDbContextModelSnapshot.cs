@@ -268,7 +268,7 @@ namespace EditorialMvc.DataAccess.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pensamiento");
+                    b.ToTable("Pensamientos");
                 });
 
             modelBuilder.Entity("EditorialMvc.Models.Usuario", b =>
