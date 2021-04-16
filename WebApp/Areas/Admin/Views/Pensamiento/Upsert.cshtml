@@ -1,0 +1,83 @@
+﻿@model WebApp.Domain.Pensamiento
+
+@{
+    var titulo = "Crear Pensamiento";
+}
+
+<form method="post">
+    <div class="row p-3 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        @if (Model.Id != 0)
+        {
+            titulo = "Editar Pensamiento";
+        }
+
+        <div class="col-12 border-bottom">
+            <h2 class="text-primary">@titulo</h2>
+        </div>
+        <div class="col-8 pt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Titulo"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Titulo" class="form-control" />
+                    <span asp-validation-for="Titulo" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Contenido"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Contenido" class="form-control" />
+                    <span asp-validation-for="Contenido" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Imagen"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Imagen" class="form-control" />
+                    <span asp-validation-for="Imagen" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Fecha"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Fecha" class="form-control" />
+                    <span asp-validation-for="Fecha" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="Autor"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Autor" class="form-control" />
+                    <span asp-validation-for="Autor" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-8 offset-4">
+                    @if (Model.Id != 0)
+                    {
+                        <partial name="~/Views/Shared/_BotonesActualizarRegresar.cshtml" model="Model.Id" />
+                    }
+                    else
+                    {
+                        <partial name="~/Views/Shared/_BotonesCrearRegresar.cshtml" />
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <partial name="_ValidationScriptsPartial" />
+}
