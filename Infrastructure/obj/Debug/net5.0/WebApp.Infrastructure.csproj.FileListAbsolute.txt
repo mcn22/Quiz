@@ -1,0 +1,15 @@
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\WebApp.Infrastructure.deps.json
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\WebApp.Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\ref\WebApp.Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\WebApp.Infrastructure.pdb
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\WebApp.Domain.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\WebApp.Domain.pdb
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.csprojAssemblyReference.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.AssemblyInfo.cs
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.csproj.CopyComplete
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\ref\WebApp.Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\WebApp.Infrastructure.pdb

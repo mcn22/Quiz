@@ -1,0 +1,12 @@
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\mcn_0\source\repos\Quiz\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
