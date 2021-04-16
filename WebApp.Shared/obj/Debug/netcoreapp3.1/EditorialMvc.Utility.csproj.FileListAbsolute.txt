@@ -1,9 +1,0 @@
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\bin\Debug\netcoreapp3.1\EditorialMvc.Utility.deps.json
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\bin\Debug\netcoreapp3.1\EditorialMvc.Utility.dll
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\bin\Debug\netcoreapp3.1\EditorialMvc.Utility.pdb
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.csprojAssemblyReference.cache
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.AssemblyInfoInputs.cache
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.AssemblyInfo.cs
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.csproj.CoreCompileInputs.cache
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.dll
-D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Utility\obj\Debug\netcoreapp3.1\EditorialMvc.Utility.pdb

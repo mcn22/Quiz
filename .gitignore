@@ -356,3 +356,7 @@ MigrationBackup/
 /WebApp.Domain/bin
 /WebApp.Infrastructure/bin
 /WebApp.Shared/bin
+/WebApp.Shared/obj
+/WebApp.Infrastructure/obj
+/WebApp.Domain/obj
+/WebApp/obj
