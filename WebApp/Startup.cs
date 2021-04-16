@@ -68,12 +68,12 @@ namespace EditorialMvc
               );
 
 
-            services.AddAuthentication().AddGoogle(options =>
-             {
-                  //IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
-                 options.ClientId = "906120752235-7b8oivmq4fsrhe1469qsg44jkn027jg0.apps.googleusercontent.com";
-                  options.ClientSecret = "ZvEa2vKwK60U0WFF4O6DK5t4";
-              });
+            //services.AddAuthentication().AddGoogle(options =>
+            // {
+            //      //IConfigurationSection googleAuthNSection = Configuration.GetSection("Authentication:Google");
+            //     options.ClientId = "906120752235-7b8oivmq4fsrhe1469qsg44jkn027jg0.apps.googleusercontent.com";
+            //      options.ClientSecret = "ZvEa2vKwK60U0WFF4O6DK5t4";
+            //  });
 
             services.Configure<SendGridOptions>(Configuration.GetSection(SendGridOptions.Section));
 
