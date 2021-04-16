@@ -12,18 +12,18 @@ namespace WebApp.Domain
     {
         public int Id { get; set; }
 
-        [Display(Name = "Pensamiento_Titulo")]
-        [Required(ErrorMessage = "Pensamiento_Titulo_ErrorMessage")]
+        [Display(Name = "Titulo")]
+        [Required(ErrorMessage = "Este campo es requerido.")]
         [MaxLength(100, ErrorMessage = "El máximo es de 100 caracteres")]
         public string Titulo { get; set; }
 
         [Required(ErrorMessage = "Este campo es requerido.")]
         public string Contenido { get; set; }
 
-        [Required(ErrorMessage = "Este campo es requerido.")]
+        //[Required(ErrorMessage = "Este campo es requerido.")]
         public string Imagen { get; set; }
 
-        [Required(ErrorMessage = "Este campo es requerido.")]
+        //[Required(ErrorMessage = "Este campo es requerido.")]
         public DateTime Fecha { get; set; }
 
         [Required(ErrorMessage = "Este campo es requerido.")]

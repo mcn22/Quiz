@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using WebApp.Domain;
 
 namespace EditorialMvc.Controllers
 {
@@ -26,8 +27,27 @@ namespace EditorialMvc.Controllers
 
         public IActionResult Index()
         {
-            IEnumerable<Usuario> libros = _unidadTrabajo.Usuarios.Listar();
-            return View(libros);
+            IEnumerable<Pensamiento> aaa = _unidadTrabajo.Pensamientos.Listar();
+            return View(aaa);
+        }
+
+        public IActionResult Upsert(int? id)
+        {
+            if (id == null)
+            {
+                return View(new Pensamiento());
+            }
+            else
+            {
+                Pensamiento Pensamiento = _unidadTrabajo.Pensamientos.Buscar(id.GetValueOrDefault());
+                if (Pensamiento == null)
+                {
+                    return NotFound();
+                }
+
+                return View(Pensamiento);
+            }
+
         }
 
         public IActionResult Privacy()

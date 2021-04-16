@@ -48,6 +48,9 @@ namespace EditorialMvc.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                Pensamiento.Imagen = "https://i.pinimg.com/originals/bf/17/63/bf176349e47e016da9de5d3fae851558.jpg";
+                Pensamiento.Fecha = new DateTime();
+
                 if (Pensamiento.Id != 0)
                 {
                     _unidadTrabajo.Pensamientos.Actualizar(Pensamiento);
