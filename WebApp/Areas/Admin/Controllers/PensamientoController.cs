@@ -8,6 +8,7 @@ using WebApp.Domain;
 
 namespace EditorialMvc.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class PensamientoController : Controller
     {
         public PensamientoController(IUnidadTrabajo unidadTrabajo)
