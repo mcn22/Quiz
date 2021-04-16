@@ -12,8 +12,8 @@ namespace WebApp.Domain
     {
         public int Id { get; set; }
 
-        //[Display(ResourceType = typeof(Resources), Name = "Pensamiento_Titulo")]
-        //[Required(ErrorMessageResourceType = typeof(Resources), ErrorMessageResourceName = "Pensamiento_Titulo_ErrorMessage")]
+        [Display(Name = "Pensamiento_Titulo")]
+        [Required(ErrorMessage = "Pensamiento_Titulo_ErrorMessage")]
         [MaxLength(100, ErrorMessage = "El máximo es de 100 caracteres")]
         public string Titulo { get; set; }
 
