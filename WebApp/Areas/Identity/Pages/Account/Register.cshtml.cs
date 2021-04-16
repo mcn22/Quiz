@@ -141,7 +141,7 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
 
                     if (string.IsNullOrEmpty(Input.Role))
                     {
-                        await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
+                        //await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
                     }
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
