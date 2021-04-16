@@ -26,10 +26,12 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
         private readonly UserManager<IdentityUser> _userManager;
         private readonly IEmailSender _emailSender;
         private readonly ILogger<ExternalLoginModel> _logger;
+        private readonly RoleManager<IdentityRole> _roleManager;
 
         public ExternalLoginModel(
             SignInManager<IdentityUser> signInManager,
             UserManager<IdentityUser> userManager,
+            RoleManager<IdentityRole> roleManager,
             ILogger<ExternalLoginModel> logger,
             IEmailSender emailSender)
         {
@@ -37,6 +39,11 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
             _userManager = userManager;
             _logger = logger;
             _emailSender = emailSender;
+
+
+            _roleManager = roleManager;
+
+            
         }
 
         [BindProperty]
@@ -138,7 +145,7 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                 ErrorMessage = "Error loading external login information during confirmation.";
                 return RedirectToPage("./Login", new { ReturnUrl = returnUrl });
             }
-
+            await Setup.InitAsync(_userManager, _roleManager);
             if (ModelState.IsValid)
             {
                 var user =
@@ -155,6 +162,7 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                     };
 
                 var result = await _userManager.CreateAsync(user);
+                await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
                 if (result.Succeeded)
                 {
                     //await _userManager.AddToRoleAsync(user, SD.Roles.Simple);

@@ -103,14 +103,13 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
         public async Task OnGetAsync(string returnUrl = null)
         {
             ReturnUrl = returnUrl;
-
             Input =
                 new InputModel
                 {
                     Companias = _unidadTrabajo.Categorias.Listar().Select(s => new SelectListItem { Text = s.Nombre, Value = s.Id.ToString() }),
                     Roles = _roleManager.Roles.Where(w => w.Name != SD.Roles.Simple).Select(s => s.Name).Select(s => new SelectListItem { Text = s, Value = s })
                 };
-
+            
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
 
@@ -138,10 +137,34 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
-
+                    //*****************************************************************************//
+                    //*****************************************************************************//
+                    //Creacion de los roles en caso de que no existan para ejecutar la primera vez
+                    //if (!await _roleManager.RoleExistsAsync(SD.Roles.Administrador))
+                    //{
+                    //    await _roleManager.CreateAsync(new IdentityRole(SD.Roles.Administrador));
+                    //}
+                    //if (!await _roleManager.RoleExistsAsync(SD.Roles.Empleado))
+                    //{
+                    //    await _roleManager.CreateAsync(new IdentityRole(SD.Roles.Empleado));
+                    //}
+                    //if (!await _roleManager.RoleExistsAsync(SD.Roles.Simple))
+                    //{
+                    //    await _roleManager.CreateAsync(new IdentityRole(SD.Roles.Simple));
+                    //}
+                    //fin Creacion de los roles
+                    //*****************************************************************************//
+                    //*****************************************************************************//
+                    //Creacion el primer usuario con rol de administrador para el primer usuario
+                    //await _userManager.AddToRoleAsync(user, SD.Roles.Administrador);
+                    //Fin Creacion el primer usuario con rol de administrador
+                    //*****************************************************************************//
+                    //*****************************************************************************//
+                    // Codigo para ejecutar despues de que se tiene un usuario y rol admin en los pasos anteriores
+                    await Setup.InitAsync(_userManager, _roleManager);
                     if (string.IsNullOrEmpty(Input.Role))
                     {
-                        //await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
+                        await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
                     }
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);

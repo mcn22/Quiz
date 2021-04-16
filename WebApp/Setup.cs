@@ -16,27 +16,13 @@ namespace EditorialMvc
         public static async Task<bool> InitAsync(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             //Creacion de los roles en caso de que no existan para ejecutar la primera vez
-            ApplicationDbContext db = new ApplicationDbContext();
+
             var RoleManager = roleManager;
             var UserManager = userManager;
 
             if (!await RoleManager.RoleExistsAsync(SD.Roles.Administrador))
-            {             
-                var user =
-                        new Usuario
-                        {
-                            UserName = "admin@admin.com",
-                            Email = "admin@admin.com",
-                            Nombre = "admin",
-                            PhoneNumber = "12345",
-                        };
-                await UserManager.CreateAsync(user, "Admin-2020");
-                db.Usuarios.Add(user);
-                db.SaveChanges();
-
-                await UserManager.AddToRoleAsync(user, SD.Roles.Administrador);
-                //Fin Creacion el primer usuario con rol de administrador
-                await RoleManager.CreateAsync(new IdentityRole(SD.Roles.Administrador));
+            {   
+                await RoleManager.CreateAsync(new IdentityRole(SD.Roles.Administrador));              
             }
             if (!await RoleManager.RoleExistsAsync(SD.Roles.Empleado))
             {
@@ -49,9 +35,20 @@ namespace EditorialMvc
             //fin Creacion de los roles
             //*****************************************************************************//
             //*****************************************************************************//
-            //Creacion el primer usuario con rol de administrador para el primer usuario
-
-
+            //Creacion el primer usuario con rol de administrador para el primer usuario            
+            var user =
+                new Usuario
+                {
+                    UserName = "admin@admin.com",
+                    Email = "admin@admin.com",
+                    Nombre = "admin",
+                    PhoneNumber = "12345",
+                };
+            if (!UserManager.Users.Select(u => u.Email == u.Email).FirstOrDefault())
+            {
+                await UserManager.CreateAsync(user, "Admin-2020");
+                await UserManager.AddToRoleAsync(user, SD.Roles.Administrador);
+            }
             return true;
         }
     }
