@@ -1,0 +1,12 @@
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\bin\Debug\netcoreapp3.1\EditorialMvc.Utility.dll
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.csprojAssemblyReference.cache
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.AssemblyInfoInputs.cache
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.AssemblyInfo.cs
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\bin\Debug\netcoreapp3.1\EditorialMvc.Models.deps.json
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\bin\Debug\netcoreapp3.1\EditorialMvc.Models.dll
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\bin\Debug\netcoreapp3.1\EditorialMvc.Models.pdb
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\bin\Debug\netcoreapp3.1\EditorialMvc.Utility.pdb
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.csproj.CoreCompileInputs.cache
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.csproj.CopyComplete
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.dll
+D:\Users\darth\Documents\PROFESOR\FIDELITAS\SC-701 - Programación Avanzada en Web\CLASES\SEMANA 10\CLASE\EditorialMvc.Models\obj\Debug\netcoreapp3.1\EditorialMvc.Models.pdb
