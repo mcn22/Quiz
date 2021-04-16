@@ -147,10 +147,10 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                         UserName = Input.Email,
                         Email = Input.Email,
                         Nombre = Input.Nombre,
-                        Direccion = Input.Direccion,
-                        Canton = Input.Canton,
-                        Provincia = Input.Provincia,
-                        CodigoPostal = Input.CodigoPostal,
+                        //Direccion = Input.Direccion,
+                        //Canton = Input.Canton,
+                        //Provincia = Input.Provincia,
+                        //CodigoPostal = Input.CodigoPostal,
                         PhoneNumber = Input.Telefono,
                     };
 

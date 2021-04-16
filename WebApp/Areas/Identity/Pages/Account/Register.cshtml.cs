@@ -126,13 +126,13 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                         UserName = Input.Email,
                         Email = Input.Email,
                         Nombre = Input.Nombre,
-                        Direccion = Input.Direccion,
-                        Canton = Input.Canton,
-                        Provincia = Input.Provincia,
-                        CodigoPostal = Input.CodigoPostal,
+                        //Direccion = Input.Direccion,
+                        //Canton = Input.Canton,
+                        //Provincia = Input.Provincia,
+                        //CodigoPostal = Input.CodigoPostal,
                         PhoneNumber = Input.Telefono,
-                        CompaniaId = Input.CompaniaId,
-                        Role = Input.Role
+                        //CompaniaId = Input.CompaniaId,
+                        //Role = Input.Role
                     };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
@@ -142,17 +142,6 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                     if (string.IsNullOrEmpty(Input.Role))
                     {
                         await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
-                    }
-                    else
-                    {
-                        if (user.CompaniaId > 0)
-                        {
-                            await _userManager.AddToRoleAsync(user, SD.Roles.Compania);
-                        }
-                        else
-                        {
-                            await _userManager.AddToRoleAsync(user, user.Role);
-                        }
                     }
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -192,15 +181,10 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        if (string.IsNullOrEmpty(user.Role))
-                        {
+                       
                             await _signInManager.SignInAsync(user, isPersistent: false);
                             return LocalRedirect(returnUrl);
-                        }
-                        else
-                        {
-                            return RedirectToAction("Index", "Usuario", new { Area = "Admin" });
-                        }
+                       
                     }
                 }
                 foreach (var error in result.Errors)

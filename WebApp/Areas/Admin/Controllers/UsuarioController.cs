@@ -63,7 +63,7 @@ namespace EditorialMvc.Areas.Admin.Controllers
                     usuario =>
                     {
                         var roleId = userRoles.FirstOrDefault(s => s.UserId == usuario.Id).RoleId;
-                        usuario.Role = roles.FirstOrDefault(s => s.Id == roleId).Name;
+                        //usuario.Role = roles.FirstOrDefault(s => s.Id == roleId).Name;
 
                         //if (usuario.Compania == null)
                         //{
