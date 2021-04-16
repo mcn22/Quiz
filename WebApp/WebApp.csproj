@@ -38,9 +38,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EditorialMvc.DataAccess\WebApp.Infrastructure.csproj" />
-    <ProjectReference Include="..\EditorialMvc.Models\WebApp.Domain.csproj" />
-    <ProjectReference Include="..\EditorialMvc.Utility\WebApp.Shared.csproj" />
+    <ProjectReference Include="..\WebApp.Infrastructure\WebApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\WebApp.Domain\WebApp.Domain.csproj" />
+    <ProjectReference Include="..\WebApp.Shared\WebApp.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

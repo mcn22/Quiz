@@ -13,3 +13,18 @@ C:\Users\yeiso\Desktop\quiz B\SEMANA 11_TAREA\SEMANA 11_TAREA\EditorialMvc.Model
 C:\Users\yeiso\Desktop\quiz B\SEMANA 11_TAREA\SEMANA 11_TAREA\EditorialMvc.Models\obj\Debug\net5.0\WebApp.Domain.dll
 C:\Users\yeiso\Desktop\quiz B\SEMANA 11_TAREA\SEMANA 11_TAREA\EditorialMvc.Models\obj\Debug\net5.0\ref\WebApp.Domain.dll
 C:\Users\yeiso\Desktop\quiz B\SEMANA 11_TAREA\SEMANA 11_TAREA\EditorialMvc.Models\obj\Debug\net5.0\WebApp.Domain.pdb
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\WebApp.Domain.deps.json
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\WebApp.Domain.dll
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\ref\WebApp.Domain.dll
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\WebApp.Domain.pdb
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\WebApp.Shared.dll
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\bin\Debug\net5.0\WebApp.Shared.pdb
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.csprojAssemblyReference.cache
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.AssemblyInfoInputs.cache
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.AssemblyInfo.cs
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.csproj.CopyComplete
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.dll
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\ref\WebApp.Domain.dll
+C:\Users\yeiso\Desktop\Quiz\WebApp.Domain\obj\Debug\net5.0\WebApp.Domain.pdb

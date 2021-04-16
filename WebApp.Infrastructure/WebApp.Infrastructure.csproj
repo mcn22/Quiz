@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EditorialMvc.Models\WebApp.Domain.csproj" />
-    <ProjectReference Include="..\EditorialMvc.Utility\WebApp.Shared.csproj" />
+    <ProjectReference Include="..\WebApp.Domain\WebApp.Domain.csproj" />
+    <ProjectReference Include="..\WebApp.Shared\WebApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>

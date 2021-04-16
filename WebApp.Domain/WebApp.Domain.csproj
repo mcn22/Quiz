@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EditorialMvc.Utility\WebApp.Shared.csproj" />
+        <ProjectReference Include="..\WebApp.Shared\WebApp.Shared.csproj" />
   </ItemGroup>
 
 </Project>
