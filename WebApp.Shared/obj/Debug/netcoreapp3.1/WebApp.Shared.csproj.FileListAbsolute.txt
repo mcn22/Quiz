@@ -1,4 +1,0 @@
-C:\Users\mcn_0\source\repos\Quiz\WebApp.Shared\obj\Debug\netcoreapp3.1\WebApp.Shared.csprojAssemblyReference.cache
-C:\Users\mcn_0\source\repos\Quiz\WebApp.Shared\obj\Debug\netcoreapp3.1\WebApp.Shared.AssemblyInfoInputs.cache
-C:\Users\mcn_0\source\repos\Quiz\WebApp.Shared\obj\Debug\netcoreapp3.1\WebApp.Shared.AssemblyInfo.cs
-C:\Users\mcn_0\source\repos\Quiz\WebApp.Shared\obj\Debug\netcoreapp3.1\WebApp.Shared.csproj.CoreCompileInputs.cache

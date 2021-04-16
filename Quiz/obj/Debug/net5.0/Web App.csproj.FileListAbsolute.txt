@@ -1,9 +1,0 @@
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.csprojAssemblyReference.cache
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.AssemblyInfoInputs.cache
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.AssemblyInfo.cs
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.csproj.CoreCompileInputs.cache
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.RazorAssemblyInfo.cache
-C:\Users\mcn_0\source\repos\Quiz\Quiz\obj\Debug\net5.0\Web App.RazorAssemblyInfo.cs
