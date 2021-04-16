@@ -54,4 +54,9 @@
     <None Include="Areas\Cliente\Views\_ViewStart.cshtml" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Resources\Areas\Admin\Pensamiento\" />
+  </ItemGroup>
+
 </Project>
