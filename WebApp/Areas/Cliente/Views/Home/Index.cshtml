@@ -1,8 +1,15 @@
 ﻿@model IEnumerable<EditorialMvc.Models.Usuario>
+@inject Microsoft.AspNetCore.Mvc.Localization.IViewLocalizer localizer
 
 @{
     ViewData["Title"] = "Home Page";
 }
+
+
+<div>
+    @localizer["Welcome"]
+    @localizer["TEST"]
+</div>
 
 <div class="row pb-3 backgroundWhite">
     @foreach (var libro in Model)

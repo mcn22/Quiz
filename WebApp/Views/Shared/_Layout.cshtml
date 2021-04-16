@@ -30,18 +30,18 @@
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         @*@if (User.IsInRole(SD.Roles.Administrador) || User.IsInRole(SD.Roles.Empleado))
-                        {*@
-                            <li class="nav-item dropdown">
-                                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Administrador de Contenido
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Pensamiento" asp-action="Index">Pensamiento</a>
-                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Categorías</a>
-                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Cubierta" asp-action="Index">Cubiertas</a>
-                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Libro" asp-action="Index">Libros</a>
-                                </div>
-                            </li>
+        {*@
+                        <li class="nav-item dropdown">
+                            <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Administrador de Contenido
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Pensamiento" asp-action="Index">Pensamiento</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Categoria" asp-action="Index">Categorías</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Cubierta" asp-action="Index">Cubiertas</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Libro" asp-action="Index">Libros</a>
+                            </div>
+                        </li>
                         @*}*@
                         @if (User.IsInRole(SD.Roles.Administrador))
                         {
@@ -55,7 +55,13 @@
                                 </div>
                             </li>
                         }
-                        </ul>
+
+
+                        <li class="nav-item">
+                            @await Html.PartialAsync("_CulturePartial")
+                        </li>
+
+                    </ul>
                     <partial name="_LoginPartial" />
                 </div>
             </div>
