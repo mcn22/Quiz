@@ -15,8 +15,6 @@ namespace EditorialMvc
 
         public static async Task<bool> InitAsync(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
         {
-            //Creacion de los roles en caso de que no existan para ejecutar la primera vez
-
             var RoleManager = roleManager;
             var UserManager = userManager;
 
@@ -31,11 +29,7 @@ namespace EditorialMvc
             if (!await RoleManager.RoleExistsAsync(SD.Roles.Simple))
             {
                 await RoleManager.CreateAsync(new IdentityRole(SD.Roles.Simple));
-            }
-            //fin Creacion de los roles
-            //*****************************************************************************//
-            //*****************************************************************************//
-            //Creacion el primer usuario con rol de administrador para el primer usuario            
+            }         
             var user =
                 new Usuario
                 {
