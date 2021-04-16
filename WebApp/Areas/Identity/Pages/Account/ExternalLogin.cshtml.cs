@@ -159,6 +159,8 @@ namespace EditorialMvc.Areas.Identity.Pages.Account
                 {
                     //await _userManager.AddToRoleAsync(user, SD.Roles.Simple);
 
+                    await _userManager.SetLockoutEnabledAsync(user, true);
+
                     result = await _userManager.AddLoginAsync(user, info);
                     if (result.Succeeded)
                     {
